@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+margin: auto;
+max-width: 1100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 8px 0 15px 0 rgba(0, 0, 0, 0.4), 7px 0 13px 0 rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    
+}
+nav .logo img{
+    width: 100px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    margin-right: 15px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+.showcase{
+    height: 100vh;
+    background-image: linear-gradient(rgba(83, 65, 3, 0.904),rgba(6, 3, 46, 0.8)), url("./c4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.showcase .container{
+
+}
+.showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.showcase-content h1{
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.showcase-content p{
+    font-size: 1em;
+    color: white;
+}
+.button{
+    display: flex;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.textcard{
+    background-color: salmon;
+    height: 400px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.texthead{
+    font-size: 2em;
+    background-color: seagreen;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+}
+.textbody{
+    font-size: 1.5em;
+    color: white;
+    margin: 20px;
+}
+body{
+    background-color: violet;
+}
+.text_container{
+    display: flex;
+}
